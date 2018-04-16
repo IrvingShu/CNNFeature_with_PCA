@@ -1,0 +1,24 @@
+('===> args:\n', Namespace(feature_dir='/workspace/data/face-idcard-1M/features/insightface-r100-spa-m2.0-ep96', image_list='../data/idcard1m/face-idcard-1M-image-list.txt', ipca_model_path='../model/256_ipca_split0.pkl', out_dir='/workspace/data/face-idcard-1M/features/pca/pca-256-split0', save_format='_feat.bin'))
+components num: 256
+explained_variance_ratio: (256,)
+sum_variance_ratio: 0.805564
+###### read features nums: 1003836 ######
+####### Save index 10000 feature  ######
+####### Save index 20000 feature  ######
+####### Save index 30000 feature  ######
+####### Save index 40000 feature  ######
+####### Save index 50000 feature  ######
+####### Save index 60000 feature  ######
+####### Save index 70000 feature  ######
+####### Save index 80000 feature  ######
+####### Save index 90000 feature  ######
+####### Save index 100000 feature  ######
+####### Save index 110000 feature  ######
+####### Save index 120000 feature  ######
+####### Save index 130000 feature  ######
+####### Save index 140000 feature  ######
+####### Save index 150000 feature  ######
+####### Save index 160000 feature  ######
+####### Save index 170000 feature  ######
+####### Save index 180000 feature  ######
+####### Save index 190000 feature  ######

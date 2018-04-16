@@ -1,0 +1,16 @@
+('===> args:\n', Namespace(feature_dir='/workspace/data/facescrub-features/insightface-r100-spa-m2.0-ep96', image_list='../data/facescrub/facescrub-mtcnn-aligned-112x112-image-list.txt', ipca_model_path='../model/256_ipca_split0.pkl', out_dir='/workspace/data/facescrub-features/pca-insightface-r100-spa-m2.0-ep96/pca-256-split0', save_format='_feat.bin'))
+components num: 256
+explained_variance_ratio: (256,)
+sum_variance_ratio: 0.805564
+###### read features nums: 91712 ######
+####### Save index 10000 feature  ######
+####### Save index 20000 feature  ######
+####### Save index 30000 feature  ######
+####### Save index 40000 feature  ######
+####### Save index 50000 feature  ######
+####### Save index 60000 feature  ######
+####### Save index 70000 feature  ######
+####### Save index 80000 feature  ######
+####### Save index 90000 feature  ######
+###### Finished Feature Reduce Dims, 91712 ######
+###### Failed Feature Reduce Dims, 0 ######

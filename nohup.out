@@ -1,0 +1,15 @@
+('===> args:\n', Namespace(feature_dir='/workspace/data/face-idcard-1M/features/insightface-r100-spa-m2.0-ep96', image_list='../data/idcard1m/face-idcard-1M-image-list.txt', ipca_model_path='../model/256_ipca_split0.pkl', out_dir='/workspace/data/face-idcard-1M/features/pca/pca-256-split0', save_format='_feat.bin'))
+components num: 256
+explained_variance_ratio: (256,)
+sum_variance_ratio: 0.805564
+###### read features nums: 1003836 ######
+Traceback (most recent call last):
+  File "./get_pca_feature.py", line 94, in <module>
+    main(parse_args(sys.argv[1:]))
+  File "./get_pca_feature.py", line 72, in main
+    x_vec = np.transpose(matio.load_mat(feature_path))
+  File "/workspace/code/qyc_work/ipca_qyc/src/matio.py", line 53, in load_mat
+    return read_mat(open(filename,'rb'))
+  File "/workspace/code/qyc_work/ipca_qyc/src/matio.py", line 28, in read_mat
+    rows, cols, stride, type_ = struct.unpack('iiii', f.read(4*4))
+KeyboardInterrupt
